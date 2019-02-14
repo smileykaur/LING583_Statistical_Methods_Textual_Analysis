@@ -1,0 +1,27 @@
+author,body,score
+rrmuller,"I'm currently reading ""[Bayesian Learning via Stochastic Gradient Langevin Dynamics](https://www.ics.uci.edu/~welling/publications/papers/stoclangevin_v6.pdf)"". Nice paper that uses SGD to sample from the posterior as an alternative to MCMC. Reading this after watching the MCMC classes by MacKay([1](https://www.youtube.com/watch?v=sN_0iGWcyLI),[2](https://www.youtube.com/watch?v=Qr6tg9oLGTA&t=3837s)) makes the comprehension much better. I'll try to code it myself later this week and maybe write about it.  ",8
+probablyuntrue,Are these not stickied anymore? ,7
+quick_dudley,I'm currently reading [Entity Embeddings of Categorical Variables](https://arxiv.org/abs/1604.06737) by Cheng Guo and Felix Berkhahn. It's a simple idea: but there are a lot of potential future avenues of research.,5
+HansJung,"Currently reading [Causal inference for recommendation](http://people.hss.caltech.edu/~fde/UAI2016WS/papers/Liang.pdf), which proposes a method for circumventing confounding bias via causal inference technique (IPW).
+",3
+sritee,Noise in parameters space for reinforcement learning exploration. https://arxiv.org/abs/1706.01905,2
+AnyAppointment,"Probably in past weeks, but FigureQA: 
+https://arxiv.org/abs/1710.07300",1
+howmahgee,"Im looking at [ A Correspondence Between Random Neural Networks and Statistical Field Theory](https://arxiv.org/abs/1710.06570).
+
+From poking around it seems these folks and their friends are fond of an approximation where the width of hidden layers is large. Specifically, on page 5, under ""Main Result"" they use 
+
+$$N_{\ell}>>|{\cal M}|$$
+
+Does anyone understand how that limit can be taken without strongly overfitting?
+",1
+temporal_templar,"Currently reading [A Learning and Masking Approach to Secure Learning](https://arxiv.org/abs/1709.04447), which provides an interesting approach to adversarial defense.",1
+whoop1es,"To learn ml, how do you get your data samples? Do you know if there is data samples that can be used ?",1
+pooja307,"Found this video interesting: https://www.youtube.com/watch?v=7JhjINPwfYQ 
+Its simple and basic concepts but found it very interesting how the person dealt with it.",1
+ML_WAYR_bot,Sometimes it just takes the mods a day or two to sticky it,1
+itss_shubham,"I'm reading the same thing, please share any other articles that you found interesting related to Feature Embedding.",1
+AnyAppointment,https://arxiv.org/abs/1801.08163 too,1
+dan994,Check out the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/index.php).,3
+quick_dudley,I'm pretty new to the idea except in the case of word2vec. But I've been running a few experiments based on the idea of a conditioning GAN and a feature embedding: instead of using manual annotations for the conditioning vector I'm associating each sample with a random initial vector and updating it through gradient descent to maximize the discriminator's ability to distinguish samples presented with their own vectors vs samples presented with other samples' vectors. My results aren't really conclusive yet but I'll write an article at some stage.,2
+itss_shubham,"That's a great application, would be looking forward to your article.",1
